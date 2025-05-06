@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		CE50D9B02DC6C5A10021AA33 /* Shader.metal in Sources */ = {isa = PBXBuildFile; fileRef = CE50D9AF2DC6C5A10021AA33 /* Shader.metal */; };
+		CECFD4AA2DC6B53000E9DD9C /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECFD4A92DC6B53000E9DD9C /* MetalView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		CECFD48D2DC6B21900E9DD9C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,9 +29,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE50D9AF2DC6C5A10021AA33 /* Shader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shader.metal; sourceTree = "<group>"; };
 		CECFD47B2DC6B21900E9DD9C /* LearningMetal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningMetal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CECFD48C2DC6B21900E9DD9C /* LearningMetalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearningMetalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CECFD4962DC6B21900E9DD9C /* LearningMetalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearningMetalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECFD4A92DC6B53000E9DD9C /* MetalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +82,8 @@
 		CECFD4722DC6B21900E9DD9C = {
 			isa = PBXGroup;
 			children = (
+				CE50D9AF2DC6C5A10021AA33 /* Shader.metal */,
+				CECFD4A92DC6B53000E9DD9C /* MetalView.swift */,
 				CECFD47D2DC6B21900E9DD9C /* LearningMetal */,
 				CECFD48F2DC6B21900E9DD9C /* LearningMetalTests */,
 				CECFD4992DC6B21900E9DD9C /* LearningMetalUITests */,
@@ -236,6 +245,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE50D9B02DC6C5A10021AA33 /* Shader.metal in Sources */,
+				CECFD4AA2DC6B53000E9DD9C /* MetalView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
